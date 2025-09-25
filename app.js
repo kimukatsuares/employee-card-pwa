@@ -1,6 +1,6 @@
 // 仮の社員データ（後でAPI連携に変更）
 const employee = {
-  name: "田中 太郎",
+  name: "孫　悟空",
   id: "A123456",
   dept: "総務部",
   photo: "default.jpg"
