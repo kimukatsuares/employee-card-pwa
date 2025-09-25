@@ -1,0 +1,19 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+  margin: 2em;
+}
+#card {
+  border: 1px solid #ccc;
+  padding: 1em;
+  display: inline-block;
+}
+#photo {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+#qr-container {
+  margin-top: 1em;
+}

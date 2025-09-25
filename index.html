@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>社員証アプリ</title>
+  <link rel="manifest" href="manifest.json" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/qrious/dist/qrious.min.js"></script>
+</head>
+<body>
+  <h1>社員証</h1>
+  <div id="card">
+    <img id="photo" src="default.jpg" alt="顔写真" />
+    <p>氏名: <span id="name">---</span></p>
+    <p>社員番号: <span id="id">---</span></p>
+    <p>所属: <span id="dept">---</span></p>
+    <div id="qr-container">
+      <canvas id="qr"></canvas>
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
